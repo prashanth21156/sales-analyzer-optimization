@@ -1,0 +1,24 @@
+         13189 function calls (13147 primitive calls) in 0.007 seconds
+
+   Ordered by: cumulative time
+   List reduced from 30 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.007    0.007 /home/claude/perf-optimization-project/sales_analyzer_optimized.py:106(analyze)
+        1    0.004    0.004    0.004    0.004 /home/claude/perf-optimization-project/sales_analyzer_optimized.py:71(build_report)
+        1    0.000    0.000    0.001    0.001 /home/claude/perf-optimization-project/sales_analyzer_optimized.py:14(find_duplicate_order_ids)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.12/collections/__init__.py:595(__init__)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.12/collections/__init__.py:669(update)
+        1    0.001    0.001    0.001    0.001 {built-in method _collections._count_elements}
+        1    0.001    0.001    0.001    0.001 /home/claude/perf-optimization-project/sales_analyzer_optimized.py:40(top_customers)
+     6025    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+     6001    0.000    0.000    0.000    0.000 /home/claude/perf-optimization-project/sales_analyzer_optimized.py:20(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /home/claude/perf-optimization-project/sales_analyzer_optimized.py:24(category_totals)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/heapq.py:523(nlargest)
+        1    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+      228    0.000    0.000    0.000    0.000 /home/claude/perf-optimization-project/sales_analyzer_optimized.py:21(<genexpr>)
+      800    0.000    0.000    0.000    0.000 /home/claude/perf-optimization-project/sales_analyzer_optimized.py:51(<lambda>)
+
+
+

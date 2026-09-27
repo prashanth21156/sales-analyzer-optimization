@@ -1,0 +1,16 @@
+find_duplicate_order_ids (optimized) - should now scale ~linearly:
+       n    time (s)   ratio vs prev
+    1000     0.00008               -
+    2000     0.00014           1.75x
+    4000     0.00030           2.24x
+    8000     0.00067           2.21x
+   16000     0.00139           2.07x
+
+naive_loyalty_index (optimized, memoized) - should now be ~instant regardless of n:
+       n    time (s)
+      24    0.000012
+      26    0.000007
+      28    0.000006
+      30    0.000013
+      60    0.000045
+     100    0.000031
